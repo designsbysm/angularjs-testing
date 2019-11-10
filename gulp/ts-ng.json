@@ -1,0 +1,10 @@
+{
+  "allowJs": true,
+  "lib": ["dom", "es6"],
+  "module": "none",
+  "noImplicitAny": true,
+  "outFile": "client.min.js",
+  "removeComments": true,
+  "skipLibCheck": true,
+  "target": "es5"
+}
