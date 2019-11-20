@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "angular": "^1.7.8",
+    "angular": "^1.7.9",
     "browser-sync": "^2.26.7",
     "bulk-require": "^1.0.1",
     "del": "^5.1.0",
