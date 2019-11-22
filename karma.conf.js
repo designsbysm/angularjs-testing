@@ -29,7 +29,7 @@ module.exports = function(config) {
       "./node_modules/angular-mocks/angular-mocks.js",
       "./src/client/js/module.js",
       "./src/client/js/**/*.js",
-      "./tests/**/*.js",
+      "./tests/unit/**/*.js",
     ],
 
     // frameworks to use
