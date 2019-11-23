@@ -30,7 +30,7 @@ module.exports = function(config) {
       "./vendor/spinjs/spin.js",
       "./src/client/js/module.js",
       "./src/client/js/**/*.js",
-      "./tests/**/*.js",
+      "./tests/unit/**/*.js",
     ],
 
     // frameworks to use
