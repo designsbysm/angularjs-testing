@@ -1,14 +1,12 @@
 describe("spinner directive", () => {
-  let $controller;
-  let $rootScope;
   let $scope;
   let Controller;
 
   beforeEach(() => {
     angular.mock.module("UnitTesting");
     angular.mock.inject((_$controller_, _$rootScope_) => {
-      $controller = _$controller_;
-      $rootScope = _$rootScope_;
+      const $controller = _$controller_;
+      const $rootScope = _$rootScope_;
 
       $scope = $rootScope.$new();
       Controller = $controller("spinnerBoxController", { $scope });
